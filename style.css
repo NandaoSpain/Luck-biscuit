@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.container1, .container2 {
+    width: 428px;
+    padding: 48px 64px 64px 64px;
+    
+    text-align: center;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    color: #34355B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: #34355B;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px;
+}
+
+.sorte {
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+    font-family: Dancing Script;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+img {
+    padding: 20px;
+}
+
+.biscoito {
+    cursor: pointer;
+}
+
+button {
+    background: #ff9500;
+    color: #fff;
+    padding: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    padding: 20px 40px;
+}
+
+button:hover {
+    background: rgba(255, 136, 0, 0.658);
+}
