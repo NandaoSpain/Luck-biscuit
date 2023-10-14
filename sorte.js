@@ -1,6 +1,4 @@
-export { retornaFrase }
-
-function retornaFrase() {
+export function retornaFrase() {
     let randomNumber = Math.round(Math.random() * 70)
     const frases = ['A vida trará coisas boas se tiveres paciência.',
     'Demonstre amor e alegria em todas as oportunidades e verás que a paz nasce dentro de você.',
