@@ -1,12 +1,8 @@
 export { retornaFrase }
 
-
-let randomNumber = Math.round(Math.random() * 70)
 function retornaFrase() {
-    return frases[randomNumber]
-}
-
-const frases = ['A vida trará coisas boas se tiveres paciência.',
+    let randomNumber = Math.round(Math.random() * 70)
+    const frases = ['A vida trará coisas boas se tiveres paciência.',
     'Demonstre amor e alegria em todas as oportunidades e verás que a paz nasce dentro de você.',
     'Não compense na ira o que lhe falta na razão.',
     'Defeitos e virtudes são apenas dois lados da mesma moeda.',
@@ -75,4 +71,7 @@ const frases = ['A vida trará coisas boas se tiveres paciência.',
     'Nada é por acaso…Acredite em seus sonhos e nos seus potenciais….Na vida tudo se supera.',
     'Acredite em milagres, mas não dependa deles.',
     'Você sempre será a sua melhor companhia!',
-    'Realize o óbvio, pense no improvável e conquiste o impossível Latumia.',]
+    'Realize o óbvio, pense no improvável e conquiste o impossível Latumia.']
+    return frases[randomNumber]
+}
+
